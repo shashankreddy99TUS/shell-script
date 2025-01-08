@@ -8,6 +8,8 @@ then
    exit i
    fi
 
+dnf list installed mysql
+
   if[$? -ne 0]
    dnf install mysql -y
    if[$? -ne 0]
