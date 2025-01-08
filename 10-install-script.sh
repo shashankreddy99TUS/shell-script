@@ -18,6 +18,7 @@ then
    fi
    else
    echo "MYSQL is already .... INSTALLED"
+   fi
 
 
 
@@ -42,6 +43,7 @@ echo "Installing Git....FAILURE"
    fi
   else
    echo "GIT is already .... INSTALLED"
+   fi
 
 
    #if[$? -ne 0]
