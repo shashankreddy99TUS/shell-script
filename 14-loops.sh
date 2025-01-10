@@ -2,8 +2,8 @@
 
 for i in (0...5)
 do
-   echo $I
-   done
+   echo $i
+done
 
    #echo 1
    #echo 2
