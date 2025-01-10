@@ -36,7 +36,7 @@ then # not installed
     dnf install mysql -y &>>$LOG_FILE
     VALIDATE $? "Installing MySQL"
 else
-    echo  -e "MySQL is already ... $Y INSTALLED"
+    echo  -e "MySQL is already ... $Y INSTALLED $N"
 fi
 
 
