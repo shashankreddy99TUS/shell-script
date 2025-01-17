@@ -59,5 +59,5 @@ if[-n "$FILES" ]
 then 
    echo "Files are: $FILES"
 else 
-    echo "No files in zip"
+    echo "No files older than $DAYS"
 fi        
