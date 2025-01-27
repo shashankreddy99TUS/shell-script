@@ -13,6 +13,6 @@ do
   if[ $USAGE -ge $DISK_THRESHOLD ] 
   then 
       MSG="High Desk usage on partition: $PARTITION Usage is: $USAGE"
-   fi 
-
+    fi
+   
 done <<< $DISK_USAGE  
